@@ -79,6 +79,5 @@ class CameraVision:
         if len(self.ans_history) > Config.HISTORY_SIZE: self.ans_history.pop(0)
         
     def reset_session(self):
-        """Rese"""
         self.id_history = []
         self.ans_history = []
